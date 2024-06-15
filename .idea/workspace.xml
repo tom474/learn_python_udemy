@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4fdb5c28-0cc5-4757-9d5f-8108cd3e5f84" name="Changes" comment="Day 1 completed" />
+    <list default="true" id="4fdb5c28-0cc5-4757-9d5f-8108cd3e5f84" name="Changes" comment="Refactor the folder">
+      <change afterPath="$PROJECT_DIR$/02_data_types/bmi_calculator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_data_types/data_format.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_data_types/data_types.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_data_types/life_in_weeks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_data_types/math_operations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_data_types/tip_calculator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,15 +46,20 @@
   "keyToString": {
     "Python.BandNameGenerator.executor": "Run",
     "Python.Test.executor": "Run",
+    "Python.bmi_calculator.executor": "Run",
+    "Python.data_format.executor": "Run",
+    "Python.data_types.executor": "Run",
     "Python.input.executor": "Run",
     "Python.len.executor": "Run",
+    "Python.life_in_weeks.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.math_operations.executor": "Run",
     "Python.print.executor": "Run",
     "Python.variables.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -77,6 +90,8 @@
       <workItem from="1718379971735" duration="1755000" />
       <workItem from="1718424471812" duration="3188000" />
       <workItem from="1718431557733" duration="532000" />
+      <workItem from="1718441709122" duration="573000" />
+      <workItem from="1718442290340" duration="4612000" />
     </task>
     <task id="LOCAL-00001" summary="Day 1 completed">
       <option name="closed" value="true" />
@@ -94,7 +109,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718432062790</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Refactor the folder">
+      <option name="closed" value="true" />
+      <created>1718442155858</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1718442155858</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,15 +125,21 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Day 1 completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 1 completed" />
+    <MESSAGE value="Refactor the folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor the folder" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/learn_python_udemy$Test.coverage" NAME="Test Coverage Results" MODIFIED="1718428477261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/learn_python_udemy$BandNameGenerator.coverage" NAME="BandNameGenerator Coverage Results" MODIFIED="1718431897040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day_001_Variables" />
-    <SUITE FILE_PATH="coverage/learn_python_udemy$len.coverage" NAME="len Coverage Results" MODIFIED="1718381440794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day_001_Variables" />
+    <SUITE FILE_PATH="coverage/learn_python_udemy$data_types.coverage" NAME="data_types Coverage Results" MODIFIED="1718445703705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02_data_types" />
     <SUITE FILE_PATH="coverage/learn_python_udemy$print.coverage" NAME="print Coverage Results" MODIFIED="1718429339647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day_001_Variables" />
-    <SUITE FILE_PATH="coverage/learn_python_udemy$variables.coverage" NAME="variables Coverage Results" MODIFIED="1718429486637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day_001_Variables" />
+    <SUITE FILE_PATH="coverage/learn_python_udemy$bmi_calculator.coverage" NAME="bmi_calculator Coverage Results" MODIFIED="1718444471060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02_data_types" />
     <SUITE FILE_PATH="coverage/learn_python_udemy$input.coverage" NAME="input Coverage Results" MODIFIED="1718381136122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day_001_Variables" />
+    <SUITE FILE_PATH="coverage/learn_python_udemy$Test.coverage" NAME="Test Coverage Results" MODIFIED="1718428477261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/learn_python_udemy$len.coverage" NAME="len Coverage Results" MODIFIED="1718381440794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day_001_Variables" />
+    <SUITE FILE_PATH="coverage/learn_python_udemy$variables.coverage" NAME="variables Coverage Results" MODIFIED="1718429486637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day_001_Variables" />
+    <SUITE FILE_PATH="coverage/learn_python_udemy$life_in_weeks.coverage" NAME="life_in_weeks Coverage Results" MODIFIED="1718446203525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02_data_types" />
+    <SUITE FILE_PATH="coverage/learn_python_udemy$data_format.coverage" NAME="data_format Coverage Results" MODIFIED="1718445827865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02_data_types" />
     <SUITE FILE_PATH="coverage/learn_python_udemy$main.coverage" NAME="main Coverage Results" MODIFIED="1718282810088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day_001_Variables" />
+    <SUITE FILE_PATH="coverage/learn_python_udemy$math_operations.coverage" NAME="math_operations Coverage Results" MODIFIED="1718445654277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02_data_types" />
   </component>
 </project>
