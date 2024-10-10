@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b440df99-e4aa-47c6-bffe-304526bc2cdb" name="Changes" comment="Complete Day 3">
-      <change afterPath="$PROJECT_DIR$/day_004/01_random_module.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day_004/02_lists.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day_004/03_banker_roulette.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day_004/04_index_error.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day_004/05_rock_paper_scissors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day_004/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b440df99-e4aa-47c6-bffe-304526bc2cdb" name="Changes" comment="Complete Day 4">
+      <change afterPath="$PROJECT_DIR$/day_005/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,41 +45,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.01_data_types.executor&quot;: &quot;Run&quot;,
-    &quot;Python.01_if_else.executor&quot;: &quot;Run&quot;,
-    &quot;Python.01_random_module.executor&quot;: &quot;Run&quot;,
-    &quot;Python.02_lists.executor&quot;: &quot;Run&quot;,
-    &quot;Python.02_modulo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.02_type_error_checking_conversion.executor&quot;: &quot;Run&quot;,
-    &quot;Python.03_banker_roulette.executor&quot;: &quot;Run&quot;,
-    &quot;Python.03_mathematical_operations.executor&quot;: &quot;Run&quot;,
-    &quot;Python.03_nesting_and_elif.executor&quot;: &quot;Run&quot;,
-    &quot;Python.04_index_error.executor&quot;: &quot;Run&quot;,
-    &quot;Python.04_multiple_ifs.executor&quot;: &quot;Run&quot;,
-    &quot;Python.04_number_manipulation.executor&quot;: &quot;Run&quot;,
-    &quot;Python.05_python_pizza.executor&quot;: &quot;Run&quot;,
-    &quot;Python.05_tip_calculator.executor&quot;: &quot;Run&quot;,
-    &quot;Python.06_logical_operators.executor&quot;: &quot;Run&quot;,
-    &quot;Python.07_treasure_island.executor&quot;: &quot;Run&quot;,
-    &quot;Python.band_name_generator.executor&quot;: &quot;Run&quot;,
-    &quot;Python.inputs.executor&quot;: &quot;Run&quot;,
-    &quot;Python.printing.executor&quot;: &quot;Run&quot;,
-    &quot;Python.string_manipulation.executor&quot;: &quot;Run&quot;,
-    &quot;Python.variable_naming.executor&quot;: &quot;Run&quot;,
-    &quot;Python.variables.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.github.copilot.settings.ApplicationConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.01_data_types.executor": "Run",
+    "Python.01_if_else.executor": "Run",
+    "Python.01_random_module.executor": "Run",
+    "Python.02_lists.executor": "Run",
+    "Python.02_modulo.executor": "Run",
+    "Python.02_type_error_checking_conversion.executor": "Run",
+    "Python.03_banker_roulette.executor": "Run",
+    "Python.03_mathematical_operations.executor": "Run",
+    "Python.03_nesting_and_elif.executor": "Run",
+    "Python.04_index_error.executor": "Run",
+    "Python.04_multiple_ifs.executor": "Run",
+    "Python.04_number_manipulation.executor": "Run",
+    "Python.05_python_pizza.executor": "Run",
+    "Python.05_rock_paper_scissors.executor": "Run",
+    "Python.05_tip_calculator.executor": "Run",
+    "Python.06_logical_operators.executor": "Run",
+    "Python.07_treasure_island.executor": "Run",
+    "Python.band_name_generator.executor": "Run",
+    "Python.inputs.executor": "Run",
+    "Python.printing.executor": "Run",
+    "Python.string_manipulation.executor": "Run",
+    "Python.variable_naming.executor": "Run",
+    "Python.variables.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.github.copilot.settings.ApplicationConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -104,7 +99,7 @@
       <updated>1728548580460</updated>
       <workItem from="1728548582703" duration="664000" />
       <workItem from="1728549263472" duration="6698000" />
-      <workItem from="1728559606758" duration="2243000" />
+      <workItem from="1728559606758" duration="2575000" />
     </task>
     <task id="LOCAL-00001" summary="Update .gitignore file">
       <option name="closed" value="true" />
@@ -146,7 +141,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728555344127</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Complete Day 4">
+      <option name="closed" value="true" />
+      <created>1728570520049</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1728570520049</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,7 +160,8 @@
     <MESSAGE value="Complete Day 1" />
     <MESSAGE value="Complete Day 2" />
     <MESSAGE value="Complete Day 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Complete Day 3" />
+    <MESSAGE value="Complete Day 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Complete Day 4" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/learn_python_udemy$03_mathematical_operations.coverage" NAME="03_mathematical_operations Coverage Results" MODIFIED="1728551386660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day_002" />
