@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b440df99-e4aa-47c6-bffe-304526bc2cdb" name="Changes" comment="">
+    <list default="true" id="b440df99-e4aa-47c6-bffe-304526bc2cdb" name="Changes" comment="Update .gitignore file">
+      <change afterPath="$PROJECT_DIR$/day_001/01_printing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_001/02_string_manipulation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_001/03_inputs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_001/04_variables.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_001/05_variable_naming.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_001/06_band_name_generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -12,24 +19,31 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "tom474"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;tom474&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/tom474/learn_python_udemy.git",
-    "accountId": "69284e28-b5a9-42aa-a506-19276d0dea7f"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/tom474/learn_python_udemy.git&quot;,
+    &quot;accountId&quot;: &quot;69284e28-b5a9-42aa-a506-19276d0dea7f&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2nEqSI2N53XvfrB8UlimwSeESq2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -40,6 +54,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.band_name_generator.executor": "Run",
+    "Python.inputs.executor": "Run",
+    "Python.printing.executor": "Run",
+    "Python.string_manipulation.executor": "Run",
+    "Python.variable_naming.executor": "Run",
+    "Python.variables.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
@@ -68,10 +88,32 @@
       <option name="presentableId" value="Default" />
       <updated>1728548580460</updated>
       <workItem from="1728548582703" duration="664000" />
+      <workItem from="1728549263472" duration="1581000" />
     </task>
+    <task id="LOCAL-00001" summary="Update .gitignore file">
+      <option name="closed" value="true" />
+      <created>1728549369962</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1728549369962</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update .gitignore file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update .gitignore file" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/learn_python_udemy$variables.coverage" NAME="variables Coverage Results" MODIFIED="1728550321643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day_001" />
+    <SUITE FILE_PATH="coverage/learn_python_udemy$printing.coverage" NAME="printing Coverage Results" MODIFIED="1728549725632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day_001" />
+    <SUITE FILE_PATH="coverage/learn_python_udemy$variable_naming.coverage" NAME="variable_naming Coverage Results" MODIFIED="1728550303027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day_001" />
+    <SUITE FILE_PATH="coverage/learn_python_udemy$inputs.coverage" NAME="inputs Coverage Results" MODIFIED="1728549966618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day_001" />
+    <SUITE FILE_PATH="coverage/learn_python_udemy$string_manipulation.coverage" NAME="string_manipulation Coverage Results" MODIFIED="1728550294344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day_001" />
+    <SUITE FILE_PATH="coverage/learn_python_udemy$band_name_generator.coverage" NAME="band_name_generator Coverage Results" MODIFIED="1728550357193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day_001" />
   </component>
 </project>
