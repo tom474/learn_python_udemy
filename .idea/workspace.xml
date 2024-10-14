@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b440df99-e4aa-47c6-bffe-304526bc2cdb" name="Changes" comment="Complete Day 9">
+    <list default="true" id="b440df99-e4aa-47c6-bffe-304526bc2cdb" name="Changes" comment="Complete Day 10">
+      <change afterPath="$PROJECT_DIR$/day_011/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_011/blackjack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_011/blackjack_art.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -139,7 +142,7 @@
       <workItem from="1728725703094" duration="5755000" />
       <workItem from="1728783968217" duration="7825000" />
       <workItem from="1728877468811" duration="1764000" />
-      <workItem from="1728896127393" duration="6586000" />
+      <workItem from="1728896127393" duration="7680000" />
     </task>
     <task id="LOCAL-00001" summary="Update .gitignore file">
       <option name="closed" value="true" />
@@ -277,7 +280,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728918529442</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Complete Day 10">
+      <option name="closed" value="true" />
+      <created>1728918880242</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1728918880242</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -299,7 +310,8 @@
     <MESSAGE value="Done Day 5 Exercises" />
     <MESSAGE value="Done Day 8 Exercises" />
     <MESSAGE value="Complete Day 9" />
-    <option name="LAST_COMMIT_MESSAGE" value="Complete Day 9" />
+    <MESSAGE value="Complete Day 10" />
+    <option name="LAST_COMMIT_MESSAGE" value="Complete Day 10" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/learn_python_udemy$05_python_pizza.coverage" NAME="05_python_pizza Coverage Results" MODIFIED="1728554347915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day_003" />
