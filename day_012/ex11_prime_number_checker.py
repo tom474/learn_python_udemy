@@ -1,4 +1,11 @@
 def is_prime(num):
+    """
+    Check if a number is a prime number.
+
+    :param num: The number to check for primality.
+    :type num: int
+    :return: True if the number is prime, False otherwise.
+    """
     if num == 2:
         return True
     if num == 1:
