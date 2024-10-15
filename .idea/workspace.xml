@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b440df99-e4aa-47c6-bffe-304526bc2cdb" name="Changes" comment="Complete Day 10">
-      <change afterPath="$PROJECT_DIR$/day_011/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day_011/blackjack.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day_011/blackjack_art.py" afterDir="false" />
+    <list default="true" id="b440df99-e4aa-47c6-bffe-304526bc2cdb" name="Changes" comment="Complete Day 11">
+      <change afterPath="$PROJECT_DIR$/day_012/01_namespaces_and_scope.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_012/02_block_scope.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_012/03_global_vars.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_012/04_global_constants.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_012/05_number_guessing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_012/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_012/ex11_prime_number_checker.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,9 +29,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {}
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {}
+}</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/tom474/learn_python_udemy.git&quot;,
@@ -55,7 +59,9 @@
     "Python.01_functions_with_inputs.executor": "Run",
     "Python.01_hangman.executor": "Run",
     "Python.01_if_else.executor": "Run",
+    "Python.01_namespaces_and_scope.executor": "Run",
     "Python.01_random_module.executor": "Run",
+    "Python.02_block_scope.executor": "Run",
     "Python.02_highest_score.executor": "Run",
     "Python.02_lists.executor": "Run",
     "Python.02_modulo.executor": "Run",
@@ -67,22 +73,27 @@
     "Python.03_blind_auction.executor": "Run",
     "Python.03_caesar_cipher_1.executor": "Run",
     "Python.03_for_loops_with_range.executor": "Run",
+    "Python.03_global_vars.executor": "Run",
     "Python.03_mathematical_operations.executor": "Run",
     "Python.03_nesting_and_elif.executor": "Run",
     "Python.04_caesar_cipher_2.executor": "Run",
     "Python.04_calculator.executor": "Run",
+    "Python.04_global_constants.executor": "Run",
     "Python.04_index_error.executor": "Run",
     "Python.04_multiple_ifs.executor": "Run",
     "Python.04_number_manipulation.executor": "Run",
     "Python.04_password_generator.executor": "Run",
     "Python.05_caesar_cipher_3.executor": "Run",
+    "Python.05_number_guessing.executor": "Run",
     "Python.05_python_pizza.executor": "Run",
     "Python.05_rock_paper_scissors.executor": "Run",
     "Python.05_tip_calculator.executor": "Run",
     "Python.06_logical_operators.executor": "Run",
     "Python.07_treasure_island.executor": "Run",
     "Python.band_name_generator.executor": "Run",
+    "Python.blackjack.executor": "Run",
     "Python.ex10_leap_year.executor": "Run",
+    "Python.ex11_prime_number_checker.executor": "Run",
     "Python.ex1_printing_practice.executor": "Run",
     "Python.ex2_debugging_practice.executor": "Run",
     "Python.ex3_variables.executor": "Run",
@@ -142,7 +153,8 @@
       <workItem from="1728725703094" duration="5755000" />
       <workItem from="1728783968217" duration="7825000" />
       <workItem from="1728877468811" duration="1764000" />
-      <workItem from="1728896127393" duration="7680000" />
+      <workItem from="1728896127393" duration="8856000" />
+      <workItem from="1728955763416" duration="1988000" />
     </task>
     <task id="LOCAL-00001" summary="Update .gitignore file">
       <option name="closed" value="true" />
@@ -288,7 +300,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728918880242</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Complete Day 11">
+      <option name="closed" value="true" />
+      <created>1728920932306</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1728920932306</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,27 +331,31 @@
     <MESSAGE value="Done Day 8 Exercises" />
     <MESSAGE value="Complete Day 9" />
     <MESSAGE value="Complete Day 10" />
-    <option name="LAST_COMMIT_MESSAGE" value="Complete Day 10" />
+    <MESSAGE value="Complete Day 11" />
+    <option name="LAST_COMMIT_MESSAGE" value="Complete Day 11" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/learn_python_udemy$05_python_pizza.coverage" NAME="05_python_pizza Coverage Results" MODIFIED="1728554347915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day_003" />
-    <SUITE FILE_PATH="coverage/learn_python_udemy$03_banker_roulette.coverage" NAME="03_banker_roulette Coverage Results" MODIFIED="1728558932201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day_004" />
     <SUITE FILE_PATH="coverage/learn_python_udemy$variables.coverage" NAME="variables Coverage Results" MODIFIED="1728550321643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day_001" />
+    <SUITE FILE_PATH="coverage/learn_python_udemy$03_banker_roulette.coverage" NAME="03_banker_roulette Coverage Results" MODIFIED="1728558932201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day_004" />
     <SUITE FILE_PATH="coverage/learn_python_udemy$02_lists.coverage" NAME="02_lists Coverage Results" MODIFIED="1728558676988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day_004" />
-    <SUITE FILE_PATH="coverage/learn_python_udemy$03_nesting_and_elif.coverage" NAME="03_nesting_and_elif Coverage Results" MODIFIED="1728551934874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day_003" />
     <SUITE FILE_PATH="coverage/learn_python_udemy$printing.coverage" NAME="printing Coverage Results" MODIFIED="1728549725632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day_001" />
+    <SUITE FILE_PATH="coverage/learn_python_udemy$03_nesting_and_elif.coverage" NAME="03_nesting_and_elif Coverage Results" MODIFIED="1728551934874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day_003" />
     <SUITE FILE_PATH="coverage/learn_python_udemy$ex2_debugging_practice.coverage" NAME="ex2_debugging_practice Coverage Results" MODIFIED="1728790150850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/coding_exercises" />
     <SUITE FILE_PATH="coverage/learn_python_udemy$03_caesar_cipher_1.coverage" NAME="03_caesar_cipher_1 Coverage Results" MODIFIED="1728741807259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day_008" />
     <SUITE FILE_PATH="coverage/learn_python_udemy$01_for_loops.coverage" NAME="01_for_loops Coverage Results" MODIFIED="1728570754625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day_005" />
+    <SUITE FILE_PATH="coverage/learn_python_udemy$03_global_vars.coverage" NAME="03_global_vars Coverage Results" MODIFIED="1728956588441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day_012" />
     <SUITE FILE_PATH="coverage/learn_python_udemy$04_multiple_ifs.coverage" NAME="04_multiple_ifs Coverage Results" MODIFIED="1728552115645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day_003" />
     <SUITE FILE_PATH="coverage/learn_python_udemy$ex1_printing_practice.coverage" NAME="ex1_printing_practice Coverage Results" MODIFIED="1728790082699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/coding_exercises" />
     <SUITE FILE_PATH="coverage/learn_python_udemy$02_multiple_return_values.coverage" NAME="02_multiple_return_values Coverage Results" MODIFIED="1728898456934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day_010" />
-    <SUITE FILE_PATH="coverage/learn_python_udemy$01_functions_with_inputs.coverage" NAME="01_functions_with_inputs Coverage Results" MODIFIED="1728727890601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day_008" />
     <SUITE FILE_PATH="coverage/learn_python_udemy$01_random_module.coverage" NAME="01_random_module Coverage Results" MODIFIED="1728558162986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day_004" />
+    <SUITE FILE_PATH="coverage/learn_python_udemy$01_functions_with_inputs.coverage" NAME="01_functions_with_inputs Coverage Results" MODIFIED="1728727890601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day_008" />
     <SUITE FILE_PATH="coverage/learn_python_udemy$02_positional_vs_keyword_arguments.coverage" NAME="02_positional_vs_keyword_arguments Coverage Results" MODIFIED="1728732147555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day_008" />
+    <SUITE FILE_PATH="coverage/learn_python_udemy$blackjack.coverage" NAME="blackjack Coverage Results" MODIFIED="1728920887102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day_011" />
     <SUITE FILE_PATH="coverage/learn_python_udemy$05_tip_calculator.coverage" NAME="05_tip_calculator Coverage Results" MODIFIED="1728551539471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day_002" />
     <SUITE FILE_PATH="coverage/learn_python_udemy$05_rock_paper_scissors.coverage" NAME="05_rock_paper_scissors Coverage Results" MODIFIED="1728570479554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day_004" />
     <SUITE FILE_PATH="coverage/learn_python_udemy$ex9_grading_program.coverage" NAME="ex9_grading_program Coverage Results" MODIFIED="1728897401746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day_009" />
+    <SUITE FILE_PATH="coverage/learn_python_udemy$ex11_prime_number_checker.coverage" NAME="ex11_prime_number_checker Coverage Results" MODIFIED="1728957080266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day_012" />
     <SUITE FILE_PATH="coverage/learn_python_udemy$01_hangman.coverage" NAME="01_hangman Coverage Results" MODIFIED="1728726557728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day_007" />
     <SUITE FILE_PATH="coverage/learn_python_udemy$02_modulo.coverage" NAME="02_modulo Coverage Results" MODIFIED="1728551859999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day_003" />
     <SUITE FILE_PATH="coverage/learn_python_udemy$hangman.coverage" NAME="hangman Coverage Results" MODIFIED="1728727297582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day_007" />
@@ -344,13 +368,17 @@
     <SUITE FILE_PATH="coverage/learn_python_udemy$06_logical_operators.coverage" NAME="06_logical_operators Coverage Results" MODIFIED="1728554514322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day_003" />
     <SUITE FILE_PATH="coverage/learn_python_udemy$05_caesar_cipher_3.coverage" NAME="05_caesar_cipher_3 Coverage Results" MODIFIED="1728785439077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day_008" />
     <SUITE FILE_PATH="coverage/learn_python_udemy$01_function_with_outputs.coverage" NAME="01_function_with_outputs Coverage Results" MODIFIED="1728898087249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day_010" />
+    <SUITE FILE_PATH="coverage/learn_python_udemy$02_block_scope.coverage" NAME="02_block_scope Coverage Results" MODIFIED="1728956292859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day_012" />
     <SUITE FILE_PATH="coverage/learn_python_udemy$02_type_error_checking_conversion.coverage" NAME="02_type_error_checking_conversion Coverage Results" MODIFIED="1728551299402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day_002" />
     <SUITE FILE_PATH="coverage/learn_python_udemy$03_for_loops_with_range.coverage" NAME="03_for_loops_with_range Coverage Results" MODIFIED="1728571068061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day_005" />
     <SUITE FILE_PATH="coverage/learn_python_udemy$ex4_bmi_calculator.coverage" NAME="ex4_bmi_calculator Coverage Results" MODIFIED="1728790414381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/coding_exercises" />
     <SUITE FILE_PATH="coverage/learn_python_udemy$01_if_else.coverage" NAME="01_if_else Coverage Results" MODIFIED="1728551760116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day_003" />
     <SUITE FILE_PATH="coverage/learn_python_udemy$ex7_life_in_weeks.coverage" NAME="ex7_life_in_weeks Coverage Results" MODIFIED="1728792138729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day_008" />
     <SUITE FILE_PATH="coverage/learn_python_udemy$04_index_error.coverage" NAME="04_index_error Coverage Results" MODIFIED="1728559416804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day_004" />
+    <SUITE FILE_PATH="coverage/learn_python_udemy$04_global_constants.coverage" NAME="04_global_constants Coverage Results" MODIFIED="1728957153514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day_012" />
+    <SUITE FILE_PATH="coverage/learn_python_udemy$05_number_guessing.coverage" NAME="05_number_guessing Coverage Results" MODIFIED="1728957701287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day_012" />
     <SUITE FILE_PATH="coverage/learn_python_udemy$01_data_types.coverage" NAME="01_data_types Coverage Results" MODIFIED="1728551217513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day_002" />
+    <SUITE FILE_PATH="coverage/learn_python_udemy$01_namespaces_and_scope.coverage" NAME="01_namespaces_and_scope Coverage Results" MODIFIED="1728956176934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day_012" />
     <SUITE FILE_PATH="coverage/learn_python_udemy$04_number_manipulation.coverage" NAME="04_number_manipulation Coverage Results" MODIFIED="1728551435072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day_002" />
     <SUITE FILE_PATH="coverage/learn_python_udemy$ex5_bmi_calculator_with_interpretations.coverage" NAME="ex5_bmi_calculator_with_interpretations Coverage Results" MODIFIED="1728790662246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/coding_exercises" />
     <SUITE FILE_PATH="coverage/learn_python_udemy$ex6_fizzbuzz.coverage" NAME="ex6_fizzbuzz Coverage Results" MODIFIED="1728790876026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/coding_exercises" />
