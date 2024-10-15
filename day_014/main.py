@@ -5,6 +5,12 @@ from data import data
 
 
 def format_data(account):
+    """
+    Format account data into a readable string.
+
+    :param account: A dictionary containing account information with keys 'name', 'description', and 'country'.
+    :return: A formatted string with the account's name, description, and country.
+    """
     account_name = account["name"]
     account_description = account["description"]
     account_country = account["country"]
@@ -12,6 +18,14 @@ def format_data(account):
 
 
 def check_answer(guess, a_followers, b_followers):
+    """
+    Compare follower counts and check if the user's guess is correct.
+
+    :param guess: The user's guess, either 'a' or 'b'.
+    :param a_followers: The follower count of account A.
+    :param b_followers: The follower count of account B.
+    :return: True if the guess is correct, False otherwise.
+    """
     if a_followers > b_followers:
         return guess == "a"
     else:
