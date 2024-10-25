@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b440df99-e4aa-47c6-bffe-304526bc2cdb" name="Changes" comment="Complete Day 16">
-      <change afterPath="$PROJECT_DIR$/day_016/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day_016/coffee_maker.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day_016/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day_016/menu.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day_016/money_machine.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_017/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_017/data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_017/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_017/question_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_017/quiz_brain.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -163,7 +163,7 @@
       <workItem from="1728877468811" duration="1764000" />
       <workItem from="1728896127393" duration="8856000" />
       <workItem from="1728955763416" duration="8563000" />
-      <workItem from="1729824519304" duration="6553000" />
+      <workItem from="1729824519304" duration="14254000" />
     </task>
     <task id="LOCAL-00001" summary="Update .gitignore file">
       <option name="closed" value="true" />
@@ -381,7 +381,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729846669766</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Complete Day 16">
+      <option name="closed" value="true" />
+      <created>1729847355419</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1729847355419</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -440,7 +448,7 @@
     <SUITE FILE_PATH="coverage/learn_python_udemy$01_hangman.coverage" NAME="01_hangman Coverage Results" MODIFIED="1728726557728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day_007" />
     <SUITE FILE_PATH="coverage/learn_python_udemy$06_use_debugger.coverage" NAME="06_use_debugger Coverage Results" MODIFIED="1728960089636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day_013" />
     <SUITE FILE_PATH="coverage/learn_python_udemy$02_modulo.coverage" NAME="02_modulo Coverage Results" MODIFIED="1728551859999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day_003" />
-    <SUITE FILE_PATH="coverage/learn_python_udemy$main.coverage" NAME="main Coverage Results" MODIFIED="1729846555500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day_016" />
+    <SUITE FILE_PATH="coverage/learn_python_udemy$main.coverage" NAME="main Coverage Results" MODIFIED="1729870180321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day_017" />
     <SUITE FILE_PATH="coverage/learn_python_udemy$hangman.coverage" NAME="hangman Coverage Results" MODIFIED="1728727297582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day_007" />
     <SUITE FILE_PATH="coverage/learn_python_udemy$variable_naming.coverage" NAME="variable_naming Coverage Results" MODIFIED="1728550303027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day_001" />
     <SUITE FILE_PATH="coverage/learn_python_udemy$07_treasure_island.coverage" NAME="07_treasure_island Coverage Results" MODIFIED="1728555247339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day_003" />

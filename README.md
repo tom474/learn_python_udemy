@@ -21,3 +21,4 @@
 ### Intermediate:
 - Day 15 - Intermediate - Local Development Environment Setup & the Coffee Machine
 - Day 16 - Intermediate - Object Oriented Programming (OOP)
+- Day 17 - Intermediate - The Quiz Project & the Benefits of OOP
